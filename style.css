@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+
+.btnO {
+    font-family: "Science Gothic", sans-serif;
+    background-color: orange;
+    padding: 1px 10px 1px 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px black;
+
+}
+
+.btnO:hover {
+    padding: 2px 11px 2px 11px;
+    transition: 0.1s;
+    box-shadow: 0 7px 5px black;
+}
+
+.btnG {
+    font-family: "Science Gothic", sans-serif;
+    background-color: green;
+    padding: 1px 10px 1px 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px black;
+
+}
+
+.btnG:hover {
+    padding: 2px 11px 2px 11px;
+    transition: 0.1s;
+    box-shadow: 0 7px 5px black;
+}
+
+.btnO:active {
+    box-shadow: 0 3px 5px black;
+    transform: translateY(4px);
+}
+.btnG:active {
+    box-shadow: 0 3px 5px black;
+    transform: translateY(4px);
+}
